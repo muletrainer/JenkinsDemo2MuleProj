@@ -3,7 +3,7 @@ package com.mulesoft.training;
 public class Flight implements java.io.Serializable, Comparable<Flight> {
 
 	/**
-	 * 
+	 * Comment added in the java class 
 	 */
 	private static final long serialVersionUID = -1864125444413697289L;
 	
