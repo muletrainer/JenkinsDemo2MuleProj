@@ -30,7 +30,7 @@
 					  <muleVersion>${app.runtime}</muleVersion>
 					  <username>kishore1019</username>
 					  <password>JavaJ2ee</password>
-					  <applicationName>CiCd</applicationName>
+					  <applicationName>CiCdKish1</applicationName>
 					  <environment>Sandbox</environment>
 					  <properties>
 						<key>value</key>
