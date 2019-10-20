@@ -1,0 +1,22 @@
+http:
+  port: "8082"
+  
+american:
+  host: "training4-american-api-kish.us-e2.cloudhub.io"
+  port: "80"
+  protocol: "HTTP"
+  basepath: "/"
+  client_id: "027aaba367874abcae7d25a6c04c11bc"
+  client_secret: "7787c689e1f046F587e05ADEa367E843"
+  
+united:
+  host: "mu.learn.mulesoft.com"
+  port: "80"
+  basepath: "/"
+  
+delta:
+  wsdl: "http://mu.learn.mulesoft.com/deltas?wsdl"
+  port: "TicketServicePort"
+  service: "TicketServiceService"
+
+  
