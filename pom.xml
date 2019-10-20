@@ -20,13 +20,27 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.mule.tools.maven</groupId>
-				<artifactId>mule-maven-plugin</artifactId>
-				<version>${mule.maven.plugin.version}</version>
-				<extensions>true</extensions>
-				<configuration>
-				</configuration>
-			</plugin>
+				  <groupId>org.mule.tools.maven</groupId>
+				  <artifactId>mule-maven-plugin</artifactId>
+				  <version>${mule.maven.plugin.version}</version>
+				  <extensions>true</extensions>
+				  <configuration>
+					<cloudHubDeployment>
+					  <uri>https://anypoint.mulesoft.com</uri>
+					  <muleVersion>${app.runtime}</muleVersion>
+					  <username>kishore1019</username>
+					  <password>JavaJ2ee</password>
+					  <applicationName>CiCd</applicationName>
+					  <environment>Sandbox</environment>
+					  <properties>
+						<key>value</key>
+					  </properties>
+					  <workers>1</workers>
+					  <workerType>MICRO</workerType>
+					  <region>us-east-1</region>					  
+					</cloudHubDeployment>
+				  </configuration>
+				</plugin>
 		</plugins>
 	</build>
 
